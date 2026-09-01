@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | Bellas Patas Estética Animal</title>
+    <meta name="description" content="Entre em contato com a Bellas Patas Estética Animal. Agende pelo WhatsApp, veja nosso horário e localização.">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="font-body bg-cream text-gray-800 overflow-x-hidden">
+
+    <!-- NAVBAR -->
+    <nav id="navbar" class="fixed top-0 left-0 w-full z-50 transition-all duration-500 scrolled">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <a href="index.html" class="flex items-center gap-3 group">
+                    <div class="w-12 h-12 rounded-full bg-gradient-to-br from-primary-400 to-lavender-400 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform duration-300"><span class="text-white text-xl">🐾</span></div>
+                    <div><h1 class="font-display text-xl font-bold leading-tight bg-gradient-to-r from-primary-600 to-lavender-500 bg-clip-text text-transparent">Bellas Patas</h1><p class="text-[10px] tracking-[0.2em] uppercase text-primary-400 font-medium">Estética Animal</p></div>
+                </a>
+                <div class="hidden md:flex items-center gap-8">
+                    <a href="index.html" class="nav-link text-sm font-medium text-gray-600 hover:text-primary-500 transition-colors duration-300 relative">Início</a>
+                    <a href="servicos.html" class="nav-link text-sm font-medium text-gray-600 hover:text-primary-500 transition-colors duration-300 relative">Serviços</a>
+                    <a href="sobre.html" class="nav-link text-sm font-medium text-gray-600 hover:text-primary-500 transition-colors duration-300 relative">Sobre</a>
+                    <a href="galeria.html" class="nav-link text-sm font-medium text-gray-600 hover:text-primary-500 transition-colors duration-300 relative">Galeria</a>
+                    <a href="contato.html" class="nav-link active text-sm font-medium text-gray-600 hover:text-primary-500 transition-colors duration-300 relative">Contato</a>
+                    <a href="https://wa.me/5500000000000" target="_blank" class="px-6 py-2.5 bg-gradient-to-r from-primary-500 to-lavender-500 text-white rounded-full text-sm font-semibold shadow-lg shadow-primary-200 hover:shadow-xl hover:-translate-y-0.5 transition-all duration-300">Agendar Horário</a>
+                </div>
+                <button id="mobile-menu-btn" class="md:hidden flex flex-col gap-1.5 p-2 group" aria-label="Abrir menu">
+                    <span class="w-6 h-0.5 bg-gray-700 rounded transition-all duration-300 origin-center" id="bar1"></span>
+                    <span class="w-6 h-0.5 bg-gray-700 rounded transition-all duration-300" id="bar2"></span>
+                    <span class="w-4 h-0.5 bg-gray-700 rounded transition-all duration-300 origin-center" id="bar3"></span>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden fixed inset-0 bg-white/98 backdrop-blur-xl z-40 flex flex-col items-center justify-center gap-8 opacity-0 pointer-events-none transition-all duration-500 -translate-y-full">
+            <a href="index.html" class="mobile-nav-link text-2xl font-display font-bold text-gray-800 hover:text-primary-500 transition-colors">Início</a>
+            <a href="servicos.html" class="mobile-nav-link text-2xl font-display font-bold text-gray-800 hover:text-primary-500 transition-colors">Serviços</a>
+            <a href="sobre.html" class="mobile-nav-link text-2xl font-display font-bold text-gray-800 hover:text-primary-500 transition-colors">Sobre</a>
+            <a href="galeria.html" class="mobile-nav-link text-2xl font-display font-bold text-gray-800 hover:text-primary-500 transition-colors">Galeria</a>
+            <a href="contato.html" class="mobile-nav-link text-2xl font-display font-bold text-primary-500">Contato</a>
+            <a href="https://wa.me/5500000000000" target="_blank" class="mt-4 px-8 py-3 bg-gradient-to-r from-primary-500 to-lavender-500 text-white rounded-full text-lg font-semibold shadow-lg">Agendar Horário</a>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <section class="pt-32 pb-16 relative overflow-hidden">
+        <div class="absolute inset-0 bg-gradient-to-br from-primary-50 via-cream to-lavender-50"></div>
+        <div class="absolute top-10 right-10 w-72 h-72 bg-primary-200/30 rounded-full blur-3xl animate-float"></div>
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-1.5 bg-white/80 backdrop-blur-sm rounded-full border border-primary-100 mb-6">
+                <i data-lucide="phone" class="w-4 h-4 text-primary-400"></i>
+                <span class="text-sm text-primary-600 font-medium">Contato</span>
+            </div>
+            <h2 class="font-display text-4xl md:text-6xl font-bold mb-6">
+                Fale
+                <span class="bg-gradient-to-r from-primary-500 to-lavender-500 bg-clip-text text-transparent">conosco</span>
+            </h2>
+            <p class="text-gray-500 text-lg max-w-2xl mx-auto">Estamos prontos para receber seu pet com todo o carinho. Entre em contato e agende!</p>
+        </div>
+    </section>
+
+    <!-- CONTACT CONTENT -->
+    <section class="py-20 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="font-display text-2xl font-bold mb-8">Informações de contato</h3>
+
+                    <div class="space-y-6">
+                        <a href="https://wa.me/5500000000000" target="_blank"
+                           class="flex items-center gap-5 p-6 rounded-2xl bg-white shadow-lg shadow-gray-100/50 hover:shadow-xl hover:shadow-green-100/30 hover:-translate-y-1 transition-all duration-300 group border border-gray-100">
+                            <div class="w-14 h-14 rounded-2xl bg-green-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-green-500/20 group-hover:scale-110 transition-all">
+                                <svg class="w-7 h-7 text-green-500" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 text-lg">WhatsApp</p>
+                                <p class="text-gray-400">Clique para falar conosco</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="w-5 h-5 text-gray-300 ml-auto group-hover:text-green-500 group-hover:translate-x-1 transition-all"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/bellaspatas_esteticaanimal/" target="_blank"
+                           class="flex items-center gap-5 p-6 rounded-2xl bg-white shadow-lg shadow-gray-100/50 hover:shadow-xl hover:shadow-primary-100/30 hover:-translate-y-1 transition-all duration-300 group border border-gray-100">
+                            <div class="w-14 h-14 rounded-2xl bg-primary-500/10 flex items-center justify-center flex-shrink-0 group-hover:bg-primary-500/20 group-hover:scale-110 transition-all">
+                                <i data-lucide="instagram" class="w-7 h-7 text-primary-500"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 text-lg">Instagram</p>
+                                <p class="text-gray-400">@bellaspatas_esteticaanimal</p>
+                            </div>
+                            <i data-lucide="arrow-right" class="w-5 h-5 text-gray-300 ml-auto group-hover:text-primary-500 group-hover:translate-x-1 transition-all"></i>
+                        </a>
+
+                        <div class="flex items-center gap-5 p-6 rounded-2xl bg-white shadow-lg shadow-gray-100/50 border border-gray-100">
+                            <div class="w-14 h-14 rounded-2xl bg-lavender-500/10 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="clock" class="w-7 h-7 text-lavender-500"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 text-lg">Horário de Funcionamento</p>
+                                <p class="text-gray-400">Segunda a Sexta: 8h às 18h</p>
+                                <p class="text-gray-400">Sábado: 8h às 13h</p>
+                                <p class="text-gray-400">Domingo: Fechado</p>
+                            </div>
+                        </div>
+
+                        <div class="flex items-center gap-5 p-6 rounded-2xl bg-white shadow-lg shadow-gray-100/50 border border-gray-100">
+                            <div class="w-14 h-14 rounded-2xl bg-blue-500/10 flex items-center justify-center flex-shrink-0">
+                                <i data-lucide="map-pin" class="w-7 h-7 text-blue-500"></i>
+                            </div>
+                            <div>
+                                <p class="font-semibold text-gray-800 text-lg">Localização</p>
+                                <p class="text-gray-400">Entre em contato para mais informações</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CTA Card -->
+                <div>
+                    <div class="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl p-10 shadow-2xl relative overflow-hidden">
+                        <div class="absolute top-0 right-0 w-64 h-64 bg-primary-500/10 rounded-full blur-3xl"></div>
+                        <div class="absolute bottom-0 left-0 w-48 h-48 bg-lavender-500/10 rounded-full blur-3xl"></div>
+                        <div class="absolute inset-0 opacity-[0.03]" style="background-image: url('data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 80 80%22><text y=%2240%22 font-size=%2230%22>🐾</text></svg>'); background-size: 80px 80px;"></div>
+
+                        <div class="relative text-center">
+                            <div class="w-20 h-20 rounded-full bg-gradient-to-br from-primary-400 to-lavender-400 flex items-center justify-center mx-auto mb-6 shadow-xl shadow-primary-500/30 animate-float">
+                                <span class="text-3xl">🐾</span>
+                            </div>
+
+                            <h3 class="font-display text-3xl font-bold text-white mb-4">Agende agora!</h3>
+                            <p class="text-gray-300 mb-8 leading-relaxed">Seu pet merece o melhor cuidado. Fale com a gente pelo WhatsApp e agende o horário ideal!</p>
+
+                            <a href="https://wa.me/5500000000000" target="_blank"
+                               class="group inline-flex items-center gap-3 w-full justify-center px-8 py-5 bg-gradient-to-r from-green-500 to-green-600 text-white rounded-2xl font-semibold text-lg shadow-xl shadow-green-500/30 hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 mb-4">
+                                <svg class="w-6 h-6" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                                Falar no WhatsApp
+                                <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+
+                            <a href="https://www.instagram.com/bellaspatas_esteticaanimal/" target="_blank"
+                               class="group inline-flex items-center gap-3 w-full justify-center px-8 py-5 bg-white/10 backdrop-blur-sm text-white rounded-2xl font-semibold text-lg border border-white/20 hover:bg-white/20 hover:-translate-y-1 transition-all duration-300">
+                                <i data-lucide="instagram" class="w-5 h-5"></i>
+                                Seguir no Instagram
+                                <i data-lucide="arrow-right" class="w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                            </a>
+
+                            <div class="mt-8 flex items-center justify-center gap-2 text-gray-400">
+                                <i data-lucide="shield-check" class="w-4 h-4"></i>
+                                <span class="text-sm">Resposta rápida garantida</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-gray-900 pt-16 pb-8 relative">
+        <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-primary-500/30 to-transparent"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
+                <div>
+                    <div class="flex items-center gap-3 mb-4">
+                        <div class="w-10 h-10 rounded-full bg-gradient-to-br from-primary-400 to-lavender-400 flex items-center justify-center"><span class="text-lg">🐾</span></div>
+                        <div><h3 class="font-display text-lg font-bold text-white">Bellas Patas</h3><p class="text-[10px] tracking-[0.2em] uppercase text-primary-300">Estética Animal</p></div>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">Cuidando do seu melhor amigo com carinho, dedicação e profissionalismo.</p>
+                </div>
+                <div>
+                    <h4 class="font-display text-white font-bold mb-4">Páginas</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="text-gray-400 text-sm hover:text-primary-400 transition-colors">Início</a></li>
+                        <li><a href="servicos.html" class="text-gray-400 text-sm hover:text-primary-400 transition-colors">Serviços</a></li>
+                        <li><a href="sobre.html" class="text-gray-400 text-sm hover:text-primary-400 transition-colors">Sobre</a></li>
+                        <li><a href="galeria.html" class="text-gray-400 text-sm hover:text-primary-400 transition-colors">Galeria</a></li>
+                        <li><a href="contato.html" class="text-gray-400 text-sm hover:text-primary-400 transition-colors">Contato</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h4 class="font-display text-white font-bold mb-4">Redes Sociais</h4>
+                    <div class="flex gap-3 mb-6">
+                        <a href="https://www.instagram.com/bellaspatas_esteticaanimal/" target="_blank" class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-primary-500/20 hover:border-primary-400/30 transition-all duration-300 group"><i data-lucide="instagram" class="w-5 h-5 text-gray-400 group-hover:text-primary-400 transition-colors"></i></a>
+                        <a href="https://wa.me/5500000000000" target="_blank" class="w-10 h-10 rounded-xl bg-white/5 border border-white/10 flex items-center justify-center hover:bg-green-500/20 hover:border-green-400/30 transition-all duration-300 group"><i data-lucide="message-circle" class="w-5 h-5 text-gray-400 group-hover:text-green-400 transition-colors"></i></a>
+                    </div>
+                    <p class="text-gray-400 text-sm"><i data-lucide="clock" class="w-4 h-4 inline mr-1"></i>Seg-Sex: 8h–18h | Sáb: 8h–13h</p>
+                </div>
+            </div>
+            <div class="border-t border-white/5 pt-8 flex flex-col md:flex-row items-center justify-between gap-4">
+                <p class="text-gray-500 text-sm">© 2024 Bellas Patas Estética Animal. Todos os direitos reservados.</p>
+                <p class="text-gray-600 text-xs">Feito com 💕 para seu pet</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/5500000000000" target="_blank" id="whatsapp-float" class="fixed bottom-6 right-6 z-50 w-16 h-16 bg-green-500 rounded-full flex items-center justify-center shadow-xl shadow-green-500/30 hover:shadow-2xl hover:scale-110 transition-all duration-300">
+        <svg class="w-8 h-8 text-white" viewBox="0 0 24 24" fill="currentColor"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        <span class="absolute inset-0 rounded-full bg-green-400 animate-ping opacity-25"></span>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>

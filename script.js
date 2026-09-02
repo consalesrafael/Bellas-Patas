@@ -1,5 +1,5 @@
 /* ============================================ */
-/* BELLAS PATAS - Main JavaScript               */
+/* PET JOINVILLE - Main JavaScript              */
 /* ============================================ */
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -230,5 +230,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    console.log('🐾 Bellas Patas - Site carregado com sucesso!');
+    console.log('🐾 Pet Joinville - Site carregado com sucesso!');
 });
